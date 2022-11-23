@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barberia - produtos</title>
+        <!-- O link do reset sempre será o primeiro link, visto que ele limpa todas as
+        alterações feita, incluindo as alterações feitas pelo código -->
+        <link href="/css/reset.css" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style-produtos.css">
+    </head>
+    <body>
+        <!-- <header>
+            <div class="caixa">
+                <h1><img src="/images/logo.png"></h1>
+                 Indiretamente, a tag está em uma posição estática (position: static), tendo
+                seu ponto de ínicio fixo. Desse modo, para que sai desse ponto utiliza-se o
+                comando "position: relative" o qual permite mudar a posição com relação a
+                posiçãõ inicial 
+                <nav>
+                    <ul>
+                         <a>: denominada de ancora, ela é utilizada para linkar diferentes sites 
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="produtos.html">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header> -->
+        <!-- Main: engloba aquilo que é amais de importante no site -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/images/logo.png" class="w-25 pl-5"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Disciplinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Perguntar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contanto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login/Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+
+            <div class="row my-4">
+                <div class="offset-sm-2 offset-md-4" style="font-size: 26px; font-weight: bold;">
+                    Bem Vindo a Barbearia do Baiano!
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-xs-12 col-sm-12 col-md-3 offset-md-1 my-2 borda ">
+                    <h2 class="cabelo">Cabelo</h2>
+                    <img class="imagem_cabelo" src="/images/cabelo.jpg"><br>
+                    <div class=" botoes">
+                        <button style="border-radius: 5px; background-color: rgb(35, 35, 172); color: white;" class="col-xs-12 col-md-6">Adicionar ao Carrinho</button>
+                        <button style="border-radius: 5px; background-color: rgb(192, 34, 34); color: white;" class="col-xs-12 col-md-5">Realizar Compra</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3  offset-md-1 my-2 borda ">
+                    <h2 class="barba">Barba</h2>
+                    <img class="imagem_barba" src="/images/barba.jpg">
+                    <div class=" botoes">
+                        <button style="border-radius: 5px; background-color: rgb(35, 35, 172); color: white;" class="col-xs-12 col-md-6">Adicionar ao Carrinho</button>
+                        <button style="border-radius: 5px; background-color: rgb(192, 34, 34); color: white;" class="col-xs-12 col-md-5">Realizar Compra</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 offset-md-1 my-2 borda ">
+                    <h2 class="cabelo_barba">Cabelo + Barba</h2>
+                    <img class="imagem_cabelo_barba" style="width: auto; padding: auto;"src="/images/cabelo+barba.jpg">
+                    <div class=" botoes">
+                        <button style="border-radius: 5px; background-color: rgb(35, 35, 172); color: white;" class="col-xs-12 col-md-6">Adicionar ao Carrinho</button>
+                        <button style="border-radius: 5px; background-color: rgb(192, 34, 34); color: white;" class="col-xs-12 col-md-5">Realizar Compra</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-xs-12 col-sm-12 col-md-3 offset-md-1 my-2 borda ">
+                    <h2 class="cabelo">Cabelo</h2>
+                    <img class="imagem_cabelo" src="/images/cabelo.jpg"><br>
+                    <div class=" botoes">
+                        <button style="border-radius: 5px; background-color: rgb(35, 35, 172); color: white;" class="col-xs-12 col-md-6">Adicionar ao Carrinho</button>
+                        <button style="border-radius: 5px; background-color: rgb(192, 34, 34); color: white;" class="col-xs-12 col-md-5">Realizar Compra</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3  offset-md-1 my-2 borda ">
+                    <h2 class="barba">Barba</h2>
+                    <img class="imagem_barba" src="/images/barba.jpg">
+                    <div class=" botoes">
+                        <button style="border-radius: 5px; background-color: rgb(35, 35, 172); color: white;" class="col-xs-12 col-md-6">Adicionar ao Carrinho</button>
+                        <button style="border-radius: 5px; background-color: rgb(192, 34, 34); color: white;" class="col-xs-12 col-md-5">Realizar Compra</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 offset-md-1 my-2 borda ">
+                    <h2 class="cabelo_barba">Cabelo + Barba</h2>
+                    <img class="imagem_cabelo_barba" style="width: auto; padding: auto;"src="/images/cabelo+barba.jpg">
+                    <div class=" botoes">
+                        <button style="border-radius: 5px; background-color: rgb(35, 35, 172); color: white;" class="col-xs-12 col-md-6">Adicionar ao Carrinho</button>
+                        <button style="border-radius: 5px; background-color: rgb(192, 34, 34); color: white;" class="col-xs-12 col-md-5">Realizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="/images/logo-branco.png">
+            <p class="copyright">&copy;Copyright Barberia</p>
+
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

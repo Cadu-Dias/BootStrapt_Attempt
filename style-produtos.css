@@ -1,0 +1,46 @@
+.borda{
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cabelo{
+    padding-left: 40%;
+}
+.imagem_cabelo{
+    padding-left: 15%;
+}
+.barba{
+    padding-left: 40%;
+}
+.imagem_barba{
+    padding-left: 18%;
+}
+.cabelo_barba{
+    padding-left: 22%;
+}
+.imagem_cabelo_barba{
+    padding-left: 20%;
+}
+
+footer {
+    text-align: center;
+    /* Utilizado caso queira que o fundo seja uma imagem */
+    background-image: url("/images/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .cabelo, .imagem_cabelo,.barba,.cabelo_barba,.imagem_cabelo_barba,.imagem_barba{
+        padding: auto;
+    }
+    .botoes{
+       margin-left: 14%;
+    }
+    
+}
