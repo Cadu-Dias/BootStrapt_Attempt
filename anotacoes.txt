@@ -1,0 +1,296 @@
+Container: permitir a determinação da área que será utilizada na aplicação, com relação ao tamanho da tela
+
+    |_> Presença dos BreakPoints: têm como finalidade fazer algum tipo de manipulação envolvendo a responsividade, por exemplo, a container-sm
+                                    nos permite querer dizer que a partir do breakpoint o elemento e seus descendentes deixem de ocupar 100% da 
+                                    tela, ou seja, a partir dos 576px tal elemento não ocupará mais 100% da tela, todavia, se a tela for menor
+                                    ele ocupará tal tamanho
+
+        |_> xs: extra small (menos de 576px)
+            |_> Ex: container-xs
+
+        |_> sm: small (pelo menos 576px)
+            |_> Ex: container-sm
+            |_> Apresenta a mesma função que a classe container 
+
+        |_> md: medium (pelo menos 768px)
+            |_> Ex: container-md
+
+        |_> lg: large (pelo menos 992px)
+            |_> Ex: container-lg
+
+        |_> xl: extra large (pelo menos 1200px)
+            |_> Ex: container-xl
+
+        |_> xxl: extra extra large (pelo menos 1400px)
+            |_> Ex: container-xxl
+
+        |_> fluid: fluido (sempre ocupará o 100% da tela)
+            |_> Ex: container-fluid
+
+Margem ou Espaçamento Externo: representado pelo símbolo "m" no bootstrap tendo 49 tipos de variações, uma vez que tende a determinar aonde necessita-se da espaçamento interno e 
+quanto vai ser do espaçamento
+
+    1º Adiciona o local aonde será colocada a espaçamento interno:
+
+        |_> t - para elementos que terão espaçamento interno na parte de cima deles
+            |_> Ex: <h1 class = "pt"></h1>
+
+        |_> b - para elementos que terão espaçamento interno na parte de baixo deles
+            |_> Ex: <h1 class = "mb"></h1>
+
+        |_> l - para elementos que terão espaçamento interno na parte esquerda deles
+            |_> Ex: <h1 class = "ml"></h1>
+
+        |_> r - para elementos que terão espaçamento interno na parte de direita deles
+            |_> Ex: <h1 class = "mr"></h1>
+
+        |_> x - para elementos que terão espaçamento interno na parte da direita e da esquerda deles
+            |_> Ex: <h1 class = "mx"></h1>
+
+        |_> y - para elementos que terão espaçamento interno na parte de cima e de baixo deles
+            |_> Ex: <h1 class = "my"></h1>
+
+        |_> blank, isto é, vazio - para elementos que terão espaçamento interno em todos seus 4 lados
+            |_> Ex: <h1 class = "m"></h1>
+
+    2º Adicionar o valor referente ao espaço da espaçamento interno:
+
+        |_> 0 - para elementos os quais não apresentarão a espaçamento interno
+            |_> Ex: <h1 class = "mt-0"></h1>
+
+        |_> 1 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 0.25
+            |_> Ex: <h1 class = "mt-1"></h1>
+
+        |_> 2 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 0.5
+            |_> Ex: <h1 class = "mt-2"></h1>
+
+        |_> 3 - para elementos que terão sua espaçamento interno definida pelo espaço que o elemento ocupa
+            |_> Ex: <h1 class = "mt-3"></h1>
+
+        |_> 4 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 1.5
+            |_> Ex: <h1 class = "mt-4"></h1>
+
+        |_> 5 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 3
+            |_> Ex: <h1 class = "mt-5"></h1>
+
+        |_> auto - para elementos que terão sua espaçamento interno definida de forma automática conforme o navegador
+            |_> Ex: <h1 class = "mt-auto"></h1>
+
+
+Padding ou Espaçamento Interno: representado pelo símbolo "p" no bootstrap tendo 49 tipos de variações, uma vez que tende a determinar aonde necessita-se do padding e 
+quanto vai ser do espaçamento
+
+    1º Adiciona o local aonde será colocada a padding:
+
+        |_> t - para elementos que terão espaçamento interno na parte de cima deles
+            |_> Ex: <h1 class = "pt"></h1>
+
+        |_> b - para elementos que terão espaçamento interno na parte de baixo deles
+            |_> Ex: <h1 class = "pb"></h1>
+
+        |_> l - para elementos que terão espaçamento interno na parte esquerda deles
+            |_> Ex: <h1 class = "pl"></h1>
+
+        |_> r - para elementos que terão espaçamento interno na parte de direita deles
+            |_> Ex: <h1 class = "pr"></h1>
+
+        |_> x - para elementos que terão espaçamento interno na parte da direita e da esquerda deles
+            |_> Ex: <h1 class = "px"></h1>
+
+        |_> y - para elementos que terão espaçamento interno na parte de cima e de baixo deles
+            |_> Ex: <h1 class = "py"></h1>
+
+        |_> blank, isto é, vazio - para elementos que terão espaçamento interno em todos seus 4 lados
+            |_> Ex: <h1 class = "p"></h1>
+
+    2º Adicionar o valor referente ao espaço da espaçamento interno:
+
+        |_> 0 - para elementos os quais não apresentarão a espaçamento interno
+            |_> Ex: <h1 class = "pt-0"></h1>
+
+        |_> 1 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 0.25
+            |_> Ex: <h1 class = "pt-1"></h1>
+
+        |_> 2 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 0.5
+            |_> Ex: <h1 class = "pt-2"></h1>
+
+        |_> 3 - para elementos que terão sua espaçamento interno definida pelo espaço que o elemento ocupa
+            |_> Ex: <h1 class = "pt-3"></h1>
+
+        |_> 4 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 1.5
+            |_> Ex: <h1 class = "pt-4"></h1>
+
+        |_> 5 - para elementos que terão sua espaçamento interno definida pela multiplicação do espaço que o elemento ocupa com 3
+            |_> Ex: <h1 class = "pt-5"></h1>
+
+        |_> auto - para elementos que terão sua espaçamento interno definida de forma automática conforme o navegador
+            |_> Ex: <h1 class = "pt-auto"></h1>
+
+
+Colunas ou col : no bootstrap há um sistema de colunas que separá uma tela em até 12 colunas, sendo assim podemos definir quantas colunas
+         um tal elemento ocupará na página, desse modo elementos ajustam-se de lado a lado
+
+    |_> Ex: <div class="col-12">
+                10 colunas              Nesse caso o elemento ocupará 10 colunas
+            </div>  
+
+    |_> Obs: caso haja necessidade que os elementos possuam largura igual e que eles não empilhem mesmo em telas pequenas, apenas
+             coloca-se a classe col
+        
+        |_> Ex: <div class="col border mt-2">
+                    largura igual, sem empilhar
+                </div>
+
+    |_> 2º Obs: caso não especifique a quantidade de colunas que um elemento ocupará o bootstrap atribuirá tal valor de forma automática, 
+                a fim de atingir a quantidade de 12 colunas
+
+        |_> 1º Ex: <div class="col border mt-2">
+                        largura igual, sem empilhar     Nesse caso o texto ocupará as 12 colunas no seu espaço atribuido
+                    </div>
+
+        |_> 2º Ex:  <div class="row">
+                        <div class="col border mt-2">
+                            auto                                        Nesse caso a div que possui a classe col se alguma especificação
+                        </div>                                          ocupará 3 colunas, já que as outras duas ocupam ao todo 9 colunas das
+                        <div class="col-5 border mt-2">                 12 disponibilizadas pelo bootstrap
+                            5
+                        </div>
+                        <div class="col-4 border mt-2">
+                            4
+                        </div>
+                    </div>
+
+
+Linhas ou row: apenas indica que aquele elemento ocupará uma linha da página
+
+    |_> Ex: <div class="row">
+                <div class="col-12">    Nesse caso o elemento tera uma linha e ocupará 12 colunas
+                    12 colunas
+                </div>
+            </div>
+
+    |_> Obs: caso dois elementos estejam em uma mesma linhas estes elementos irão disputar espaço entre si
+        |_> Ex: <div class="row">
+
+                    <!-- aqui temos dois elementos div disputando espaço na mesma linha -->
+
+                    <!-- col-sm-12: se a tela for pequena, cada um requer 12 colunas, causando empilhando -->
+
+                    <!-- col-md-6: se a tela for pelo menos md, cada uma requer apenas 6 colunas, ficando
+                    portanto uma do lado da outra -->
+
+                    <div class="col-sm-12 col-md-6 mt-2 border">
+                        sm: 12, md: 6
+                    </div>
+                    <div class="col-sm-12 col-md-6 mt-2 border">
+                        sm: 12, md: 6
+                    </div>
+                </div>
+
+Ordem ou  Order: possibilita definir a ordem dos itens, os quais compõem uma mesma linha, que aparecerão na tela
+
+    |_> Ex: <div class="row mt-3">
+                <div class="col-4 border mt-2 order-2">
+                    sou o 1                                             Nesse caso a div com texto "Sou o 3" aparecerá no canto esquerdo, 
+                </div>                                                  seguido do texto "Sou o 1" e por fim do texto "Sou o 2"
+                <div class="col-4 border mt-2 order-3">
+                    Sou o 2
+                </div>
+                <div class="col-4 border mt-2 order-1">
+                    Sou o 3
+                </div>
+            </div>
+
+Offset: refere-se a quantas colunas um item poderá pular, ou seja, quantas colunas serão deslocadas
+
+    |_> Ex: <div class="row">
+                <div class="col-md-6 offset-md-3 border my-2">          Nesse caso a div pulará 3 colunas a partir do momento que a tela for
+                    col: 6, off: 3                                      maior que 576 px
+                </div>
+            </div>
+    
+    |_> 2º Ex: <div class="row mt-3">
+                    <div class="col-md-4 offset-md-2 border my-2">          Nesse caso a primeira div acima de 576px ela pulará 2 colunas e 
+                        col:4, off:2                                        ocupará 4, já a outra div pulará 3 e ocupará 3 colunas. Percebe-se
+                    </div>                                                  que o número de colunas puladas e ocupadas da 12, caso tal valor seja
+                    <div class="col-md-3 offset-md-3 border my-2">          ultrapassado a segunda div da linha será jogada para baixo
+                        col:3, off:3
+                    </div>
+                </div>
+
+
+Alinhamento com align-items (eixo perpendicular ao principal): permite definir em que parte as div aparecerão no seu espaço definido
+
+    |_> 1º <div class="row align-items-start border bg-light mt-3" style="height:200px">
+                <div class="col border">
+                    top (start de cima para baixo)                  Nesse caso os itens se localizaram no início do espaço definido a eles, isso
+                </div>                                              é demonstrado pelas classe "aling-items-start", que significa alinhamento
+                <div class="col border">                            dos itens no início
+                    top (start de cima para baixo)
+                </div>
+            </div>
+
+    |_> 2º <div class="row align-items-center border bg-light mt-3" style="height:200px">
+                <div class="col border">
+                    top (start de cima para baixo)                  Nesse caso os itens se localizaram no meio do espaço definido a eles, isso
+                </div>                                              é demonstrado pelas classe "aling-items-center", que significa alinhamento
+                <div class="col border">                            dos itens no centro
+                    top (start de cima para baixo)
+                </div>
+            </div>
+
+    |_> 3º <div class="row align-items-end border bg-light mt-3" style="height:200px">
+                <div class="col border">
+                    top (start de cima para baixo)                  Nesse caso os itens se localizaram no final, ou seja, em baixo
+                </div>                                              do espaço definido a eles, issoé demonstrado pelas classe "aling-items-end",
+                <div class="col border">                            que significa alinhamento dos itens no final
+                    top (start de cima para baixo)
+                </div>
+            </div>
+
+Alinhamento de um elemento específico: caso queira alinha apenas um elemento filho em uma determinada parte, usa-se o "align-self"
+
+    |_> Ex: <div class="row border my-2 align-items-center" style="height:200px">
+
+                <div class="col border align-self-start">top</div> Nesse casso a div ficará no topo
+
+                <div class="col border align-self-center">center</div> Nesse casso a div ficará no meio
+
+                <div class="col border align-self-end">bottom</div> Nesse casso a div ficará na parte de baixo
+
+            </div>
+
+
+Alinhamento com o justify content: meio semelhante ao "align-items" de alinhar elementos, mas ele se refere ao eixo principal, de modo a apenas
+                                   deslocar os itens de forma horizontal, e no código é definido pela classe "justify-content"
+
+
+        <div class="container mt-2 p-5 border">
+
+            <div class="row justify-content-start my-2">
+                <div class="col-4 border">start</div>   O conteúdo será colocado no início da linha, ou seja, mais para a esquerda
+                <div class="col-4 border">start</div>
+            </div>
+
+            <div class="row justify-content-center my-2">   O conteúdo será colocado no meio da linha, isto é, no centro dela
+                <div class="col-4 border">center</div>
+                <div class="col-4 border">center</div>
+            </div>
+
+            <div class="row justify-content-end my-2">
+                <div class="col-4 border">end</div>         O conteúdo será colocado no fim da linha, ou seja, mais para a direita
+                <div class="col-4 border">end</div>
+            </div>
+
+            <div class="row justify-content-around my-2">
+                <div class="col-4 border">around</div>      Justify-content-around: Cada div terá o espaçamento igual entre si, 
+                <div class="col-4 border">around</div>      sendo que elas tem uma margem com relação a suas laterais
+            </div>
+
+            <div class="row justify-content-between my-2">
+                <div class="col-4 border">between</div>     Justify-content-between: Procura criar o maior espaçamento igual 
+                <div class="col-4 border">between</div>        entre as div que compõem a linha
+            </div>
+
+        </div>
+
